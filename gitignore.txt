@@ -1,0 +1,30 @@
+# --- Node modules ---
+node_modules/
+
+# --- Environment variables ---
+.env
+
+# --- WhatsApp session data (local only, not needed since Supabase is used) ---
+.wwebjs_auth/
+.wwebjs_cache/
+whatsapp_session.zip
+
+# --- Logs ---
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# --- Build artifacts ---
+build/
+dist/
+
+# --- Lock files (keep only one depending on package manager) ---
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# --- Mac system files ---
+.DS_Store
+
+# --- VSCode settings (optional) ---
+.vscode/
