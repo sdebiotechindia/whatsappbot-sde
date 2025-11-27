@@ -16,7 +16,7 @@ const SUPABASE_KEY =
 const N8N_WEBHOOK_URL = process.env.N8N_WEBHOOK_URL || "";
 const PORT = process.env.PORT || 3000;
 const BUCKET_NAME = process.env.SUPABASE_BUCKET || "whatsapp-sessions";
-const CLIENT_ID = process.env.WHATSAPP_CLIENT_ID || "render-bot-478";
+const CLIENT_ID = process.env.WHATSAPP_CLIENT_ID || "render-bot-SDE";
 
 if (!SUPABASE_URL || !SUPABASE_KEY) {
   console.error("❌ Supabase URL/KEY missing");
